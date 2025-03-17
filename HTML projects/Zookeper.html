@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zookeeper Form</title>
+    
+</head>
+<body>
+    <h1>Zoo Keeper Application Form</h1>
+    <p>Please complete the form, Mandatory fields are marked with a <span style="color:red;">*</span></p>
+    <form>
+        <fieldset >
+            <legend>
+                <h4>Contact Details</h4>
+            </legend>
+            <label for="fname" style="margin-right: 30px;">Name <span style="color: red;">*</span></label>
+            <input name="fname" type="text" ><br><br>
+            <label for="tel" style="margin-right: 15px;">Telephone</label>
+            <input type="tel"><br><br>
+            <label for="email" style="margin-right: 30px;">Email <span style="color:red;">*</span></label>
+            <input type="email" ><br><br>
+        </fieldset>
+        <fieldset >
+            <legend>
+                <h4>Personal Details</h4>
+            </legend>
+            <label for="age" style="margin-right: 45px;"><span style="color: red;">*</span>Age</label>
+            <input name="age" type="number"><br><br>
+            <label for="gen" style="margin-right: 35px;">Gender</label>
+            <select>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select><br><br>
+            <label for="know">
+                    When did you 
+                    first know you 
+                    wanted to be a 
+                    zoo-keeper?
+            </label>
+            <textarea rows="6" cols="50"></textarea><br><br>
+
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Pick Your favorite Animals</legend><br>
+            <label style="margin-right: 50px;"><input type="checkbox" name="zebra" value="zebra">Zebra</label>
+            <label style="margin-right: 70px;"><input type="checkbox" name="Cat" value="cat">Cat</label>
+            <label style="margin-right: 30px;"><input type="checkbox" name="Human" value="Human">Human</label>
+            <label ><input type="checkbox" name="Anaconda" value="Anaconda">Anaconda</label><br><br>
+            <label style="margin-right: 30px;"><input type="checkbox" name="Elephant"value="Elephant">Elephant</label>
+            <label style="margin-right: 30px;"><input type="checkbox" name="Wildbeest" value="Wildbeest">Wildbeest</label>
+            <label style="margin-right: 45px;"><input type="checkbox" name="Crab" value="Crab">Crab</label>
+            <label ><input type="checkbox" name="Pigeon" value="Pigeon">Pigeon</label><br><br>
+        </fieldset>
+        <br><br>
+        <button type="submit" padding="20px">Submit Application</button>
+    </form>
+
+</body>
+</html>
